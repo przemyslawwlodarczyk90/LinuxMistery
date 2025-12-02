@@ -1,4 +1,4 @@
-package org.example;
+package org.example.notes;
 
 /**
  * NOTATKI: WIRTUALIZACJA, VMWARE, VIRTUALBOX
@@ -6,7 +6,7 @@ package org.example;
  * Ten plik służy TYLKO jako notatki w kodzie.
  * Nie ma tu logiki – to „ściąga” w formie klasy.
  */
-public class VirtualizationNotes {
+public class LN01_VirtualizationNotes {
 
     /*
     ============================================

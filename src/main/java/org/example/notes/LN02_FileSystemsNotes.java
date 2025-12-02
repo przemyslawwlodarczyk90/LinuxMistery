@@ -1,11 +1,11 @@
-package org.example;
+package org.example.notes;
 
 /**
  * NOTATKI: SYSTEMY PLIKÓW (NTFS, FAT, EXT4) + SZYFROWANIE PARTYCJI
  *
  * Ten plik jest notatką, nie zawiera logiki wykonywalnej.
  */
-public class FileSystemsNotes {
+public class LN02_FileSystemsNotes {
 
     /*
     ============================================
