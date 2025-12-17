@@ -1,4 +1,4 @@
-package pl.przemek.linux.notes;
+package org.example.notes;
 
 /**
  * LN20 – AWK: PRZETWARZANIE TEKSTU, KOLUMN, RAPORTY, LOGI
