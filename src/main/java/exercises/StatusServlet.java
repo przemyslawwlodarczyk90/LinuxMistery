@@ -24,6 +24,25 @@ public class StatusServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws IOException {
 
+        resp.setContentType("application/json");
+        resp.setCharacterEncoding("UTF-8");
+
+        String name = req.getParameter("name");
+
+        if (name == null || name.trim().isEmpty()) {
+            resp.setStatus(HttpServletResponse.SC_BAD_REQUEST);
+            resp.getWriter().write("{\"error\":\"name is required\"}");
+            return;
+        }
+
+        resp.setStatus(HttpServletResponse.SC_OK);
+        resp.getWriter().write("{\"status\":\"ok\",\"name\":\"" + name + "\"}");
+    }
+
+
+
+
+
         // TODO 1: nagłówki (JSON + UTF-8)
 
         // TODO 2: pobierz parametr "name"
@@ -36,4 +55,4 @@ public class StatusServlet extends HttpServlet {
         //   - status 200
         //   - JSON {"status":"ok","name":"..."}
     }
-}
+
