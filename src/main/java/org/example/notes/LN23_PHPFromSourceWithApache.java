@@ -1,4 +1,4 @@
-package pl.przemek.linux.notes;
+package org.example.notes;
 
 /**
  * LN23 – INSTALACJA PHP ZE ŹRÓDEŁ + INTEGRACJA Z APACHE

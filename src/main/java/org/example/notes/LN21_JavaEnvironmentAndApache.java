@@ -1,4 +1,4 @@
-package pl.przemek.linux.notes;
+package org.example.notes;
 
 /**
  * LN21 – PRZYGOTOWANIE ŚRODOWISKA DO PRACY Z JAVĄ + APACHE

@@ -1,4 +1,4 @@
-package pl.przemek.linux.notes;
+package org.example.notes;
 
 /**
  * LN22 – SYSTEMD: AUTOSTART APACHE PO STARCIE SYSTEMU
